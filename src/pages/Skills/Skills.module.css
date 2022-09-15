@@ -1,0 +1,447 @@
+.SkillsHeading{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 19px;
+    background-color: #F2F2F2;
+    height: 37.35rem;
+}
+
+.Heading{
+    color: #f58181;
+    font-size: 53px;
+    padding: 10px;
+}
+
+.CompanyName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Icon{
+    font-size: 23px;
+    margin: 8px;
+    color: black;
+}
+
+.Skills{
+    /* border: 1px solid black; */
+    margin-top: 42px;
+    width: 29.80rem;
+    padding: 5px;
+    text-align: center;
+    animation: 5s anim-contentLeftSide ease-out;
+}
+
+@keyframes anim-contentLeftSide {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+.PortfolioContent{
+    /* border: 1px solid orange; */
+    margin-top: 100px;
+    
+}
+
+.SkillsContent{
+    /* border: 1px solid green; */
+    margin-top: 42px;
+    width: 110%;
+    padding: 25px;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 9rem;
+    animation: 5s anim-contentRightSide ease-out;
+}
+
+@keyframes anim-contentRightSide {
+    0% {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+.Details{
+    border: 1px solid #f58181;
+    background: #f58181;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    border-radius: 0px 15px 0px 15px;
+    
+   
+}
+
+
+
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .SkillsHeading{
+        flex-direction: column;
+        height: 56.25rem;
+    }
+    
+    .Heading{
+        /* color: #f58181;
+        font-size: 45px;
+        padding: 10px; */
+    }
+    
+    .CompanyName{
+        /* font-size: 20px;
+        font-weight: bold; */
+    }
+    
+    .Skills{
+        margin-top: 10px;
+        width : 100%;
+        animation: 5s anim-contentTopSide ease-out;
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        margin-top: 10px;
+    }
+    
+    .SkillsContent{
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+        margin-left: 0rem;
+        animation: 5s anim-contentBottomSide ease-out;
+
+    }
+    
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    }
+    
+}
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+    .SkillsHeading{
+        flex-direction: column;
+        height: 45rem;
+    }
+    
+    .Heading{
+        /* color: #f58181;
+        font-size: 45px;
+        padding: 10px; */
+    }
+    
+    .CompanyName{
+        /* font-size: 20px;
+        font-weight: bold; */
+    }
+    
+    .Skills{
+        margin-top: 10px;
+        width : 100%;
+        height: 110px;
+        animation: 5s anim-contentTopSide ease-out;
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        visibility: hidden;
+    }
+    
+    .SkillsContent{
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+        margin-left: 0rem;
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+   
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+    .SkillsHeading{
+        flex-direction: column;
+        height: 38rem;
+    }
+    
+    .Heading{
+        color: #f58181;
+        font-size: 40px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .CompanyName{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .Skills{
+        margin-top: 10px;
+        width : 100%;
+        height: 85px;
+        animation: 5s anim-contentTopSide ease-out;
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        visibility: hidden;
+    }
+    
+    .SkillsContent{
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin-left: 0rem;
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+   
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    
+    }
+    .Field,.Grade{
+        font-size: 15px;
+        line-height: 25px;    
+    }
+
+}
+
+@media screen and (max-width:349px) {
+    .SkillsHeading{
+        flex-direction: column;
+    }
+    
+    .Heading{
+        color: #f58181;
+        font-size: 35px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .CompanyName{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .Skills{
+        margin-top: 10px;
+        width : 100%;
+        height: 85px;
+        animation: 5s anim-contentTopSide ease-out;
+    }
+    
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+
+    .PortfolioContent{
+        visibility: hidden;
+    }
+    
+    .SkillsContent{
+        margin-top: 3px;
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        margin-left: 0rem;
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+    
+  
+    
+    .Details{
+      margin: 10px;
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    
+    }
+    .Field,.Grade{
+        font-size: 15px;
+        line-height: 25px;    
+    }
+
+}

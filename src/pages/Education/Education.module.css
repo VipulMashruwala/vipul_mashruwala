@@ -1,0 +1,458 @@
+.EducationHeading{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 14px;
+    background-color: #F2F2F2;
+    height: 37.35rem;
+   
+}
+
+.Heading{
+    color: #f58181;
+    font-size: 53px;
+    padding: 10px;
+}
+
+.InstituteName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Education{
+    /* border: 1px solid black; */
+    margin-top: 42px;
+    width: 30rem;
+    padding: 5px;
+    text-align: center;
+    animation: 5s anim-contentLeftSide ease-out;
+}
+
+
+@keyframes anim-contentLeftSide {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+.PortfolioContent{
+    /* border: 1px solid orange; */
+    margin-top: 100px;
+}
+
+.EducationContent{
+    /* border: 1px solid green; */
+    margin-top: 42px;
+    width : 100%;
+    /* margin-right: 85px;
+    margin-left: 85px; */
+    padding: 15px;
+    flex-direction: column;
+    animation: 5s anim-contentRightSide ease-out;
+}
+@keyframes anim-contentRightSide {
+    0% {
+      opacity: 0;
+      transform: translateX(11.5%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
+
+.Years{
+    /* border: 1px solid blue; */
+    width: 200px;
+    /* margin-right: 13px; */
+    padding: 4px;
+
+}
+
+.Details{
+    /* border: 1px solid yellow; */
+    padding: 5px;
+    /* box-shadow: 5px 5px 3px -1px #a1a1a1; */
+
+}
+
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .EducationHeading{
+        flex-direction: column;
+        height: 53rem;
+    }
+    
+    .Heading{
+        /* color: #f58181;
+        font-size: 45px;
+        padding: 10px; */
+    }
+    
+    .InstituteName{
+        /* font-size: 20px;
+        font-weight: bold; */
+    }
+    
+    .Education{
+        margin-top: 10px;
+        width : 100%;
+        animation: 5s anim-contentTopSide ease-out;
+        /* padding: 5px;
+        text-align: center; */
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        margin-top: 10px;
+    }
+    
+    .EducationContent{
+        margin-top: 10px;
+        width : 100%;
+        /* padding: 15px; */
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+    
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+    .Years{
+        width: 130px;
+        padding: 4px;
+    }
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    
+    }
+    
+}
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+    .EducationHeading{
+        flex-direction: column;
+    }
+    
+    .Heading{
+        /* color: #f58181;
+        font-size: 45px;
+        padding: 10px; */
+    }
+    
+    .InstituteName{
+        /* font-size: 20px;
+        font-weight: bold; */
+    }
+    
+    .Education{
+        margin-top: 10px;
+        width : 100%;
+        height: 110px;
+        animation: 5s anim-contentTopSide ease-out;
+        /* padding: 5px;
+        text-align: center; */
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        visibility: hidden;
+    }
+    
+    .EducationContent{
+        margin-top: 10px;
+        width : 100%;
+        /* padding: 15px; */
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+    .Years{
+        width: 130px;
+        padding: 4px;
+    }
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    
+    }
+  
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+    .EducationHeading{
+        flex-direction: column;
+        height: 40rem;
+    }
+    
+    .Heading{
+        color: #f58181;
+        font-size: 40px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .InstituteName{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .Education{
+        margin-top: 10px;
+        width : 100%;
+        height: 85px;
+        animation: 5s anim-contentTopSide ease-out;
+        /* padding: 5px;
+        text-align: center; */
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        visibility: hidden;
+    }
+    
+    .EducationContent{
+        margin-top: 10px;
+        width : 100%;
+        /* padding: 15px; */
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+    .Years{
+        font-size: 13px;
+        width: 130px;
+        padding: 4px;
+    }
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    
+    }
+    .Field,.Grade{
+        font-size: 15px;
+        line-height: 25px;    
+    }
+
+}
+
+@media screen and (max-width:349px) {
+    .EducationHeading{
+        flex-direction: column;
+        padding: 5px;
+        height: 32.45rem;
+    }
+
+
+    
+    .Heading{
+        color: #f58181;
+        font-size: 35px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    .InstituteName{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .Education{
+        margin-top: 10px;
+        width : 100%;
+        height: 85px;
+        animation: 5s anim-contentTopSide ease-out;
+        /* padding: 5px;
+        text-align: center; */
+    }
+
+    @keyframes anim-contentTopSide {
+        0% {
+          opacity: 0;
+          transform: translateY(-50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+    }
+    
+    .PortfolioContent{
+        visibility: hidden;
+    }
+    
+    .EducationContent{
+        margin-top: 3px;
+        width : 100%;
+        padding: 5px;
+        display: flex;
+        animation: 5s anim-contentBottomSide ease-out;
+    }
+
+    @keyframes anim-contentBottomSide {
+        0% {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+    
+    .Years{
+        font-size: 13px;
+        width: 130px;
+        padding: 4px;
+    }
+    
+    .Details{
+        /* border: 1px solid yellow;
+        padding: 5px; */
+    
+    }
+    .Field,.Grade{
+        font-size: 14px;
+        line-height: 25px;    
+    }
+
+}

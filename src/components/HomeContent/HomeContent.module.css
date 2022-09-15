@@ -1,0 +1,94 @@
+.Objective{
+    font-size: 20px;
+    padding: 40px;
+    color: black;
+    margin-left: 85px;
+    text-align: justify;
+    animation: 5s anim-contentSide ease-out;
+    line-height: 30px;
+}
+
+@keyframes anim-contentSide {
+  0% {
+    opacity: 0;
+    transform: translateX(-80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.Button{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.ButtonTag{
+  width: 100px;
+  height: 35px;
+  color: #f58181;
+  font-size: 15px;
+  font-weight: 100;
+  border-color: #f58181;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.ButtonTag:hover{
+  background-color: #f58181;
+  border-color: #f58181;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .Objective{
+        font-size: 18px;
+        padding: 36px;
+        color: black;
+        margin-left: 0px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+    .Objective{
+        font-size: 15px;
+        padding: 30px;
+        color: black;
+        margin-left: 0px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+    .Objective{
+        font-size: 14px;
+        padding: 24px;
+        color: black;
+        margin-left: 0px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 349px) {
+    .Objective{
+        font-size: 14px;
+        padding: 24px;
+        color: black;
+        margin-left: 0px;
+        line-height: 25px;
+    }
+}

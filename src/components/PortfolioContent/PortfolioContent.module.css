@@ -1,0 +1,59 @@
+
+.List{
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    /* margin-left: 125px; */
+    list-style: none;
+}
+
+.Link{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.active{
+    color: #f58181;
+}
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .List{
+        text-align: center;
+        font-size: 25px;
+        line-height: 45px;
+        /* margin-left: 125px; */
+        list-style: none;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+    .List{
+        text-align: center;
+        font-size: 21px;
+        line-height: 40px;
+        /* margin-left: 125px; */
+        list-style: none;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+    .List{
+        text-align: center;
+        font-size: 20px;
+        line-height: 40px;
+        /* margin-left: 125px; */
+        list-style: none;
+    }
+
+}
+
+@media screen and (max-width:349px) {
+    .List{
+        text-align: center;
+        font-size: 20px;
+        line-height: 40px;
+        /* margin-left: 125px; */
+        list-style: none;
+    }
+}

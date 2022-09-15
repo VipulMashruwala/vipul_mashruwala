@@ -1,0 +1,141 @@
+.PhoneContent{
+    /* border: 1px solid red; */
+    width: 33%;
+    line-height: 35px;
+}
+
+.Phone{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.FollowMe{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Email{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.FollowMeContent{
+    /* border: 1px solid red; */
+    width: 34%;
+    line-height: 35px;
+}
+
+.EmailContent{
+    /* border: 1px solid red; */
+    width: 33%;
+    line-height: 35px;
+}
+
+.Icon{
+    font-size: 23px;
+    margin: 8px;
+    color: black;
+}
+
+.MobileIcon{
+    font-size: 19px;
+    margin: 8px;
+}
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+
+    .PhoneContent{
+        width: 45%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .FollowMeContent{
+        width: 45%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .EmailContent{
+        width: 45%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+
+    .PhoneContent{
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .FollowMeContent{
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .EmailContent{
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+
+    .PhoneContent{
+        width: 50%;
+        margin: 12px;
+        padding: 0px;
+    }
+    
+    .FollowMeContent{
+        width: 50%;
+        margin: 12px;
+        padding: 0px;
+    }
+    
+    .EmailContent{
+        width: 50%;
+        margin: 12px;
+        padding: 0px;
+
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .PhoneContent{
+        width: 75%;
+        line-height: 30px;
+        margin: 35px 0px 0px 0px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    
+    .FollowMeContent{
+        width: 75%;
+        line-height: 30px;
+        margin: 35px 0px 0px 0px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    
+    .EmailContent{
+        width: 75%;
+        line-height: 30px;
+        margin: 35px 0px 0px 0px;
+        padding: 5px;
+        font-size: 15px;
+        
+    }
+
+}
+
+
+

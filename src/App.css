@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* background-color: #f2f2f2; */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App {
+    
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  /* .particles-bg-canvas-self{
+    width: 100%;
+    height: 175%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+  } */
+
+  
+@media screen and (max-width:768px) {
+
+}

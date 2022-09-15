@@ -1,0 +1,222 @@
+.Header{
+    /* border: 1px solid blue; */
+    height: 14rem;
+    padding: 40px;
+
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.Greeting{
+    font-size: 46px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+.MyName{
+    color: #F58181;
+    font-weight: bold;
+    letter-spacing: 5px;
+    animation: 5s anim-NameUp ease-out;
+}
+
+@keyframes anim-NameUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.College{
+    font-size: 16.25px;
+    color: black;
+    font-style: italic;
+}
+
+.Name{
+    font-size: 46px;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.TypedGreeting{
+    line-height: 1px;
+}
+
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .Header{
+        /* border: 1px solid yellow; */
+        height: 14rem;
+        padding: 40px;
+       
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    .Greeting{
+        font-size: 40px;
+        
+        
+        letter-spacing: 5px;
+    
+    }
+    .MyName{
+        letter-spacing: 5px;
+        font-size: 40px;
+    
+    }
+    
+    .College{
+        font-size: 16px;
+        
+    }
+    
+    .Name{
+        font-size: 40px;
+        
+        letter-spacing: 5px;
+        
+    }
+    
+    /* .TypedGreeting{
+        line-height: 1px;
+    } */
+}
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+    .Header{
+        /* border: 1px solid yellow; */
+        height: 10rem;
+        padding: 28px;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    .Greeting{
+        font-size: 30px;
+        
+        
+        letter-spacing: 4px;
+    
+    }
+    .MyName{
+        letter-spacing: 4px;
+        font-size: 30px;
+    
+    }
+    
+    .College{
+        font-size: 14px;
+        
+    }
+    
+    .Name{
+        font-size: 30px;
+        
+        letter-spacing: 4px;
+        
+    }
+    
+    /* .TypedGreeting{
+        line-height: 1px;
+    } */
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+    .Header{
+        /* border: 1px solid yellow; */
+        height: 12rem;
+        padding: 24px;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    .Greeting{
+        font-size: 30px;
+        letter-spacing: 4px;
+    
+    }
+    .MyName{
+        letter-spacing: 4px;
+        font-size: 30px;
+    
+    }
+    
+    .College{
+        font-size: 14px;
+        
+    }
+
+    .Name{
+        font-size: 30px;
+        
+        letter-spacing: 4px;
+        
+    }
+    
+    /* .TypedGreeting{
+        line-height: 1px;
+    } */
+}
+
+@media screen and (max-width:349px) {
+    .Header{
+        /* border: 1px solid yellow; */
+        height: 12rem;
+        padding: 24px;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    .Greeting{
+        font-size: 30px;
+        
+        
+        letter-spacing: 4px;
+    
+    }
+    .MyName{
+        letter-spacing: 4px;
+        font-size: 30px;
+    
+    }
+    
+    .College{
+        font-size: 13.25px;
+        
+    }
+    
+    .Name{
+        font-size: 30px;
+        
+        letter-spacing: 4px;
+        
+    }
+        /* .TypedGreeting{
+        line-height: 1px;
+    } */
+}

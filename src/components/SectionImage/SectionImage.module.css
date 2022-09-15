@@ -1,0 +1,104 @@
+
+.ImageBorder{
+    /* border: 1px solid green; */
+    width: 40rem;
+    padding: 45px;
+    text-align: center;
+    /* margin-left: 30px; */
+}
+
+.Image{
+    height: 18rem;
+    width: 17rem;
+    border-radius: 25rem;
+    /* animation: 5s anim-ImageUpDown ease-out; */
+}
+/* @keyframes anim-ImageUpDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  } */
+
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .ImageBorder{
+      
+   
+        width: 25rem;
+        padding: 11px;
+        text-align: center;
+    
+        
+    }
+    .Image{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 25rem;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width:579px) {
+    .ImageBorder{
+      
+
+        width: 23rem;
+        padding: 11px;
+        text-align: center;
+    
+        
+    }
+    .Image{
+        height: 17rem;
+        width: 17rem;
+        border-radius: 25rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:449px) {
+    .ImageBorder{
+      
+        
+        width: 20rem;
+        padding: 11px;
+        text-align: center;
+    
+        
+    }
+    .Image{
+        height: 17rem;
+        width: 17rem;
+        border-radius: 25rem;
+    }
+}
+
+@media screen and (max-width:349px) {
+    .ImageBorder{
+      
+        
+        width: 16rem;
+        padding: 5px;
+        text-align: center;
+        margin-top: 10px;
+    
+        
+    }
+    .Image{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 25rem;
+    }
+
+}   
+
