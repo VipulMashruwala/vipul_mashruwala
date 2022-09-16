@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/vipul_mashruwala/static/css/main.942e1de7.css",
-    "main.js": "/vipul_mashruwala/static/js/main.cad84901.js",
+    "main.js": "/vipul_mashruwala/static/js/main.cf3c3083.js",
     "static/js/787.1ed0c42c.chunk.js": "/vipul_mashruwala/static/js/787.1ed0c42c.chunk.js",
     "static/media/VipulMashruwala_new.jpeg": "/vipul_mashruwala/static/media/VipulMashruwala_new.7e1229440c5b5e351acd.jpeg",
     "index.html": "/vipul_mashruwala/index.html",
     "main.942e1de7.css.map": "/vipul_mashruwala/static/css/main.942e1de7.css.map",
-    "main.cad84901.js.map": "/vipul_mashruwala/static/js/main.cad84901.js.map",
+    "main.cf3c3083.js.map": "/vipul_mashruwala/static/js/main.cf3c3083.js.map",
     "787.1ed0c42c.chunk.js.map": "/vipul_mashruwala/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.942e1de7.css",
-    "static/js/main.cad84901.js"
+    "static/js/main.cf3c3083.js"
   ]
 }
