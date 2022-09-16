@@ -268,7 +268,7 @@
 @media screen and (min-width: 350px) and (max-width:449px) {
     .InternshipHeading{
         flex-direction: column;
-        height: 34rem;
+        height: 38rem;
     }
     
     .Heading{
@@ -361,7 +361,7 @@
     .InternshipHeading{
         flex-direction: column;
         padding: 5px;
-        height: 32.45rem;
+        height: 34rem;
     }
     
     .Heading{

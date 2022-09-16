@@ -6,7 +6,7 @@ import data from '../../data.json'
 const Skills = () => {
     var mySkills = data.skills.skills.map(result =>{
         return(
-            <div className={classes.Details}>
+            <div key={result.name} className={classes.Details}>
                 <p className={classes.CompanyName}>{result.name}</p>
             </div>
         )

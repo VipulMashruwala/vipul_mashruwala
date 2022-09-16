@@ -14,7 +14,7 @@ import {
 const Project = () => {
     var myProject = data.projects.project.map((result => {
         return(
-            <div className={classes.ProjectContent}>
+            <div key={result.name} className={classes.ProjectContent}>
                 <div className={classes.Details}>
                     <p className={classes.CompanyName}>{result.name}</p>
                     <p className={classes.Profile}>{result.objective}</p>

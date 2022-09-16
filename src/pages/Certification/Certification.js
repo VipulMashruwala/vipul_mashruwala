@@ -6,7 +6,7 @@ import data from '../../data.json'
 const Certification = () => {
     var myCertifications = data.certifications.certification.map(result =>{
         return(
-            <div className={classes.CertificationContent}>
+            <div key={result.name} className={classes.CertificationContent}>
                 <div className={classes.Details}>
                     <p className={classes.InstituteName}>{result.name}</p>
                     <p className={classes.Field}>{result.organization}</p>

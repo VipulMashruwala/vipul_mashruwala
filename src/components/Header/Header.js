@@ -14,9 +14,11 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
 `;
-
-
 
 const Menu = styled.ul`
   list-style: none;
@@ -62,8 +64,8 @@ const Line = styled.span`
 `;
 
 const Overlay = styled.div`
-  position: absolute;
   height: ${props => (props.open ? "91vh" : 0)};
+  position: ${props => (props.open ? "fixed" : "absolute")};
   width: 100vw;
   background: #F58181;
   transition: height 0.4s ease-in-out;
