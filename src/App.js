@@ -50,7 +50,7 @@ const App = () => {
                   <Project />
                 </Route>
 
-                <Route  path="vipul_mashruwala/portfolio/skills" component={Skills}>
+                <Route  path="/portfolio/skills" component={Skills}>
                   <Skills />
                 </Route>
 
