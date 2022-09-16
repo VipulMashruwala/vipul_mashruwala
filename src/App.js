@@ -23,7 +23,7 @@ const App = () => {
       <Header />
       <Suspense>
             <Switch>
-                <Route exact path="/" >
+                <Route exact path="/vipul_mashruwala" >
                   <Redirect to="/home"/>
                 </Route>
                 <Route   path="/home" component={Home}>
@@ -50,9 +50,15 @@ const App = () => {
                   <Project />
                 </Route>
 
-                <Route  path="/portfolio/skills" component={Skills}>
+                <Route  path="vipul_mashruwala/portfolio/skills" component={Skills}>
                   <Skills />
                 </Route>
+
+                <Route  path="*" component={Home}>
+                  <Home />
+                </Route>
+
+
             </Switch>
           </Suspense>
     </div>
