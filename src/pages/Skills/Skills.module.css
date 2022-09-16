@@ -266,7 +266,7 @@
 @media screen and (min-width: 350px) and (max-width:449px) {
     .SkillsHeading{
         flex-direction: column;
-        height: 40rem;
+        height: 41rem;
     }
     
     .Heading{
@@ -356,7 +356,7 @@
 @media screen and (max-width:349px) {
     .SkillsHeading{
         flex-direction: column;
-        height: 38rem;
+        height: 39rem;
     }
     
     .Heading{

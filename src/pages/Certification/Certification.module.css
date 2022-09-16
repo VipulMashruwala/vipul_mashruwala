@@ -268,7 +268,7 @@
 @media screen and (min-width: 350px) and (max-width:449px) {
     .CertificationHeading{
         flex-direction: column;
-        height: 38rem;
+        height: 41rem;
     }
     
     .Heading{
@@ -362,7 +362,7 @@
     .CertificationHeading{
         flex-direction: column;
         padding: 5px;
-        height: 36rem;
+        height: 39rem;
     }
     
     .Heading{
