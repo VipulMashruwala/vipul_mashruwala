@@ -26,6 +26,7 @@ const App = () => {
                 <Route exact path="/vipul_mashruwala" >
                   <Redirect to="/home"/>
                 </Route>
+                
                 <Route   path="/home" component={Home}>
                   <Home />
                 </Route>
