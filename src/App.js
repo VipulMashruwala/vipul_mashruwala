@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import { Switch, Redirect,Route } from 'react-router-dom'
 import Header from "./components/Header/Header";
 import Portfolio from "./pages/Portfolio";
@@ -21,7 +21,6 @@ const App = () => {
         />  */}
         
       <Header />
-      <Suspense>
             <Switch>
                 <Route exact path="/vipul_mashruwala" >
                   <Redirect to="/home"/>
@@ -61,7 +60,7 @@ const App = () => {
 
 
             </Switch>
-          </Suspense>
+
     </div>
   );
 }
